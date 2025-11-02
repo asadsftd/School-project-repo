@@ -1,0 +1,78 @@
+/* header styles */
+.header{
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Nav Styles */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar, .nav-link{
+    display: flex;
+    align-items: center;
+
+}
+.nav-flex{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-link .nav-links{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.btn{
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+    border-radius: 12px;
+}
+.nav-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-link-one, .nav-link-four{
+    color:orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive for mobail */
+@media screen and (max-width:576px) {
+    .nav-text{
+        display: none;
+    }
+    .navbar .nav-link{
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 180px;
+        display: none;
+         
+    }
+    
+    .btn{
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+}
