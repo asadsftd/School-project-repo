@@ -1,3 +1,11 @@
+/* Goodle Fonts */
+
+.sora-fonts {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
 /* header styles */
 .header{
     max-width: 90%;
@@ -128,6 +136,25 @@
     width: 80%;
     margin: auto;
 }
+/* less and right angle */
+.less{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.less-one, .less-two{
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    padding: 10px 10px;
+}
+.less-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
 
 
@@ -188,5 +215,10 @@
     }
     .satndard-title{
         font-size: 22px;
+    }
+    /* less */
+    .less{
+        position: relative;
+        top: -10px;
     }
 }
