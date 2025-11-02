@@ -1,0 +1,370 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-kids {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* Navbar Styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-item{
+    list-style-type: none;
+    margin-right: 50px;
+}
+.dark{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.dark-1{
+    color: orange;
+}
+.dark-2, .dark-3{
+    color: blue;
+}
+.dark-4{
+    color: rgb(163, 163, 241);
+}
+.dark-5{
+    background-color:orange;
+    border: none;
+    padding: 18px 45px;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+}
+/* banner Styles */
+.banner{
+     max-width: 1200px;
+    margin: 50px auto;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details{
+    max-width: 550px;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: -5px;
+}
+.span-1{
+    color: orange;
+}
+.span-2{
+    color: blue;
+}
+.btn-primary{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 18px 60px;
+    font-size: 1.5rem;
+}
+/* main Styles */
+main{
+    background: linear-gradient(
+        rgb(255, 254, 254),
+        rgb(255, 255, 255)
+    );
+    max-width: 1200px;
+    margin: 0px auto;
+   padding: 50px 0px;
+}
+/* Standard Styles */
+.standard{
+    margin-top: 60px;
+}
+.standard-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+.standard-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    background: linear-gradient(
+        
+        rgb(184, 231, 253),
+        rgb(240, 237, 237)
+
+    );
+    padding: 20px;
+    box-sizing: border-box;
+     border-radius: 20px;
+}
+.card-2{
+    background: linear-gradient(
+        
+        rgb(252, 205, 167),
+        rgb(240, 237, 237)
+
+    );
+    padding: 20px;
+    box-sizing: border-box;
+     border-radius: 20px;
+}
+.card-3{
+    background: linear-gradient(
+        
+        rgb(253, 202, 217),
+        rgb(218, 220, 221)
+    );
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.angle{
+    display: flex;
+    gap: 10px;
+    height: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+#angle-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ #angle-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+/* Our Story Styles */
+.story{
+    margin-top: 100px;
+}
+.story-title{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    gap: 20px;
+}
+
+.img-title{
+    font-size: 1.5rem;
+    margin-left: 45px;
+}
+.drspt{
+    padding: 0px 50px;
+    
+}
+.story-1{
+    box-shadow: 0px 4px 40px rgb(212, 195, 195);
+    
+}
+.story-btn{
+    border: none;
+    padding: 15px 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    /* margin-left: -50%; */
+    position: relative;
+    left: 40px;
+    top: -5%;
+}
+.story-img-1{
+    width: 100%;
+    border-radius: 20px;
+}
+.story-img-2{
+    border-radius: 20px;
+   
+}
+ #card{
+    box-shadow: 0px 4px 20px rgb(199, 181, 181);
+    text-align: center;
+    
+}
+.story-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.story-2 p{
+    padding: 0px 50px;
+}
+.story-2 button {
+    background-color: gray;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    top: -10%;
+}
+#btn{
+    background-color: rgb(247, 94, 94);
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    top: -10%;
+}
+.view{
+    text-align: center;
+}
+.story-title-2{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 50px;
+    margin-top: 30px;
+}
+/* Footer Styles */
+footer{
+    background-color: rgb(129, 190, 247);
+    padding: 50px 50px;
+    color: white;
+    box-sizing: border-box;
+}
+.text{
+    font-size: 2rem;
+    font-weight: 700;
+}
+footer li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+/* .footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} */
+ .cart{
+    max-width: 50px;
+ }
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 150px;
+}
+.footer-title{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive */
+@media screen and (max-width:576px) {
+   
+    .navbar, .nav-links{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .nav-links, .center{
+        position: relative;
+        left: 50px;
+    }
+    .nav-item{
+        margin-top: 30px;
+    }
+    /* banner */
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+       
+    }
+    .banner-img{
+        width: 90%;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    /* Standard */
+    .standard-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card-3, .card-2, .card{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .angle{
+        display: none;
+    }
+    /* Story */
+    .story-1{
+        display: none;
+    }
+    .story-2{
+        /* grid-template-columns: repeat(2,1fr); */
+        justify-items: center;
+        position: relative;
+        left: 22px;
+        
+    }
+  
+    .story-img-2{
+        width: 100%;
+    }
+    #btn, .story-2 button{
+        padding: 10px 20px;
+        position: relative;
+        top: 2%;
+    }
+    /* Footer  */
+    .footer-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+    }
+}
