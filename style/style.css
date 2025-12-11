@@ -57,6 +57,9 @@ body{
     background-color: orangered;
     border-radius: 12px;
 }
+#link{
+    display: none;
+}
 .nav-text{
     font-size: 30px;
     font-weight: bold;
@@ -306,6 +309,13 @@ body{
         font-size: 18px;
         padding: 15px 20px;
     }
+    #link{
+    display: block;
+   
+}
+.none{
+    display: none;
+}
     /* hero */
     .container{
         flex-direction: column-reverse;
